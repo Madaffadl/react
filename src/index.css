@@ -1,0 +1,116 @@
+/* empDetail.css */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 0.5s ease-in-out forwards;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #back-btn {
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  #back-btn:hover {
+    background-color: #007bff; /* Change to your desired hover background color */
+    color: #fff; /* Change to your desired hover text color */
+  }
+
+
+
+
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.gray-100, .gray-200, .gray-300 {
+    background-color: rgb(245, 245, 245);
+    width: 100vw;
+    height: 33vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gray-200 {
+    background-color: rgb(219, 218, 218);
+}
+
+/* .btn {
+    border: 0px solid #fff;
+    padding: 1em 2em;
+    min-width: 200px;
+    min-height: 50px;
+    position: relative;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    transition: background-color 0.5s linear 0.5s;
+} */
+
+.btn-100::after {
+    content: "";
+    display: block;
+    border-top: 1px solid #0ebac5;
+    border-bottom: 1px solid #0ebac5;
+    background: none;
+    position: absolute;
+    inset: 0;
+    transition: all 0.5s linear;
+}
+
+.btn-100:hover::after {
+    transform: scaleX(0);
+}
+
+.btn-100:hover {
+    background-color: #0ebac5;
+    color: #fff;
+}
+
+.btn-200::after, .btn-200::before {
+    content: "";
+    display: block;
+    box-shadow: 0 0 0 1px #0ebac5;
+    background: none;
+    position: absolute;
+    inset: 0;
+    transition: all 0.5s linear;
+}
+
+.btn-200:hover::before {
+    transform: rotate(45deg);
+}
+
+.btn-200:hover::after {
+    transform: rotate(-45deg);
+}
+
+.btn-300::after {
+    content: "";
+    display: block;
+    box-shadow: 0 0 0 1px #0ebac5;
+    background: none;
+    position: absolute;
+    inset: 0;
+    transition: scale() 100ms linear 0.3s;
+}
+
+.btn-300:hover::after {
+    opacity: 0;
+}
+
+.btn-300:hover {
+    background-color: #0ebac5;
+}
+

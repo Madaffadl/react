@@ -1,0 +1,84 @@
+{
+  "employee": [
+    {
+      "name": "admin",
+      "email": "admin@acn.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 1
+    },
+    {
+      "name": "mickey",
+      "email": "mickey@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 2
+    },
+    {
+      "name": "minnie",
+      "email": "minnie@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 3
+    },
+    {
+      "name": "daisy",
+      "email": "daisy@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 4
+    },
+    {
+      "name": "donald",
+      "email": "donald@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 5
+    },
+    {
+      "name": "goofy",
+      "email": "goofy@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 6
+    },
+    {
+      "name": "pluto",
+      "email": "pluto@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 7
+    },
+    {
+      "name": "clara",
+      "email": "clara@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 8
+    },
+    {
+      "name": "belle",
+      "email": "belle@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 9
+    },
+    {
+      "name": "daffa",
+      "email": "daffa@in.com",
+      "phone": "123456",
+      "password": "password",
+      "active": true,
+      "id": 10
+    }
+  ]
+}
